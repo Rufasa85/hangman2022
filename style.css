@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background:salmon
+}
+
+main {
+    display: flex;
+    min-height: 80vh;
+}
+
+#game {
+    background:deepskyblue;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:300%;
+}
+
+#timer-box {
+    background-color: chartreuse;
+    width: 30%;
+}
